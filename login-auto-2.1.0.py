@@ -48,7 +48,7 @@ entry_senha = tk.Entry(root, show="*", width=30)
 entry_senha.pack(pady=2)
 
 # Botão para Iniciar
-btn_iniciar = tk.Button(root, text="Fazer Login", command=executar_automação, bg="#37ff00", fg="black", font=("Arial", 10, "bold"))
+btn_iniciar = tk.Button(root, text="Fazer Login", command=executar_automação, bg="#002f70", fg="white", font=("Arial", 10, "bold"))
 btn_iniciar.pack(pady=15)
 
 root.mainloop()
