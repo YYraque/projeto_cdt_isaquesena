@@ -1,3 +1,8 @@
+'''
+acresentar funcionalidade de pull request para o repositório do meu usuário github
+'''
+
+
 import tkinter as tk
 from tkinter import messagebox
 from selenium import webdriver

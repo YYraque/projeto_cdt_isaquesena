@@ -10,7 +10,7 @@ driver = webdriver.Chrome(options=chrome_options)
 driver.get("https://github.com/login")
 
 USUARIO = "SenaaTeste"
-SENHA = "isaq20110319"
+SENHA = "@vocacao26"
 
 driver.find_element(By.ID, "login_field").send_keys(USUARIO)
 driver.find_element(By.ID, "password").send_keys(SENHA)
